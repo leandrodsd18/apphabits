@@ -22,12 +22,7 @@ function save() {
     localStorage.setItem("NLWSetup@habits", JSON.stringify(nlwSetup.data))
 }
 const data = JSON.parse(localStorage.getItem("NLWSetup@habits")) || {}
-//    correr: ['01-01', '01-02', '01-03', '01-04', '01-05', '01-06','01-07', '01-08', '01-09'],
-//    agua: ['01-01', '01-02', '01-03', '01-04',], 
-//    fruta: ['01-01', '01-02', '01-03', '01-04',],
-//    estudar: ['01-01', '01-02', '01-03', '01-04',], 
-//    trampo:['01-01', '01-02', '01-03', '01-04',] ,
-//}
+
 
 nlwSetup.setData(data)
 nlwSetup.load()
